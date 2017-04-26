@@ -35,7 +35,7 @@ build:
   # http://docs.shippable.com/ci/shippableyml/#post_ci
   post_ci:
     - docker build -t gcr.io/$GCP_PROJECT_ID/$IMAGE_REPO:$BRANCH.$BUILD_NUMBER .
-    - gcloud docker -- push gcr.io/$GCP_PROJECT_ID/$IMAGE_REPO:$BRANCH.$BUILD_NUMBER
+    - docker push gcr.io/$GCP_PROJECT_ID/$IMAGE_REPO:$BRANCH.$BUILD_NUMBER
 
 # Integrations are used to connect external resources to CI
 # http://docs.shippable.com/integrations/overview/
