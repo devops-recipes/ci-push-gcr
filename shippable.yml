@@ -41,7 +41,7 @@ build:
 # http://docs.shippable.com/integrations/overview/
 integrations:
   # adding docker hub integration so that credentials are available to CI Job
-  # http://docs.shippable.com/integrations/imageRegistries/dockerHub/
+  # http://docs.shippable.com/ci/push-gcr/
   hub:
     - integrationName: gcr-integration
       type: gcr
