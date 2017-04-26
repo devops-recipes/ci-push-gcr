@@ -15,7 +15,7 @@ env:
     - CODE_COVERAGE_DIR=$SHIPPABLE_REPO_DIR/shippable/codecoverage
     - TESTS_LOC_DIR=$SHIPPABLE_REPO_DIR/tests
     - MOD_LOC=$SHIPPABLE_REPO_DIR/node_modules/.bin/
-    - IMAGE_REPO=node1-img
+    - IMAGE_REPO=ci-push-gcr
     - GCP_PROJECT_ID=vidya-project
 
 build:
