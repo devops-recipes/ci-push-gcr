@@ -11,7 +11,7 @@ to GCR
 ## Run CI for this repo on Shippable
 * Fork this repo into your local repo
 * Login into the [Continuous Integration Service](wwww.shippable.com)
-* Create a GCR [integration](http://docs.shippable.com/integrations/imageRegistries/gcr/) on shippable to connect your GCR account
+* Create a Google Cloud [integration](http://docs.shippable.com/platform/integration/gcloudKey/) on shippable to connect your GCR account
 * All CI configuration is in `shippable.yml`
 * Follow these [CI Setup Instructions](http://docs.shippable.com/ci/runFirstBuild/) if you have never used Shippable CI Service
 * Update the integrationName in the integration.hub section if you used something other than `gcr-integration`
