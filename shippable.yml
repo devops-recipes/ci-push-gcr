@@ -44,4 +44,4 @@ integrations:
   # http://docs.shippable.com/ci/push-gcr/
   hub:
     - integrationName: gcr-integration
-      type: gcr
+      type: gcloudKey
