@@ -5,7 +5,7 @@ language: node_js
 # http://docs.shippable.com/ci/advancedOptions/branches/
 branches:
   only:
-    - devops-recipes
+    - master
 
 # using pre-defined build variables
 # full list http://docs.shippable.com/ci/advancedOptions/environmentVariables/
