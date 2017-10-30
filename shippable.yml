@@ -43,5 +43,5 @@ integrations:
   # adding docker hub integration so that credentials are available to CI Job
   # http://docs.shippable.com/ci/push-gcr/
   hub:
-    - integrationName: gcr-integration
-      type: gcr
+    - integrationName: gcr-integration # we need to replace here with your Google Cloud integration name
+      type: gcloudKey
